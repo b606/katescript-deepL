@@ -7,3 +7,9 @@ Using DeepL translator within kate
 `yarn add deepl-translator`
 4. Put the katescript-deepL file in `~/.local/share/katepart5/script/commands` (see https://docs.kde.org/stable5/en/applications/katepart/dev-scripting.html)
 5. Modify the require() line to make accessible from kate-deepl.js the functions in the newly installed deepl-translator javascript files.
+
+TODO:
+- make DeepL fully functional.
+- implement a method where the user is able to select one of the translation alternatives.
+- implement a method to set the default target language for translation. DeepL can detect the text original language by using `'auto'`.
+- long term, use other translation services (why not google translate etc.?)
