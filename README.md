@@ -11,5 +11,5 @@ Using DeepL translator within kate
 TODO:
 - make DeepL fully functional.
 - implement a method where the user is able to select one of the translation alternatives.
-- implement a method to set the default target language for translation. DeepL can detect the text original language by using `'auto'`.
+- implement a method to set the default target language for translation. DeepL can detect the text original language by using `'auto'`. As of now, DeepL recognises 'EN', 'DE', 'FR', 'ES', 'IT', 'NL', and 'PL'. 
 - long term, use other translation services (why not google translate etc.?)
